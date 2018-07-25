@@ -36,4 +36,4 @@ def new_animal_accumulation(puppies, cats)
     puts "Slow back!"
   end
 end
-new_animal_accumulation(0, 1)
+new_animal_accumulation(1, 1)
