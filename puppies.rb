@@ -32,8 +32,8 @@ end
 def new_animal_accumulation(puppies, cats)
   if puppies == 0 || cats == 0
     puts "Good job!"
-  elsif puppies > 1 && cats > 1 
+  elsif puppies >= 1 && cats >= 1 
     puts "Slow back!"
   end
 end
-new_animal_accumulation(2, 2)
+new_animal_accumulation(1, 1)
